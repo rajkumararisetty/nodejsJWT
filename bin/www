@@ -1,0 +1,6 @@
+import app from '../scr/app';
+import env from '../.env';
+
+app.listen(env.port, () => {
+  console.log(`you are server is running on ${env.port}`);
+});
