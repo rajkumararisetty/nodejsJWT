@@ -1,0 +1,2 @@
+sudo docker build -t auth-demo .
+sudo docker run --name auth-demo-test -p 50001:50001 -d auth-demo
