@@ -1,5 +1,7 @@
 export default {
-  "username": "test",
-  "password": "test123",
+  "username": "test123",
+  "password": "test",
+  "secret": "secret",
+  "saltLength": 8,
   "port": 50001
 };
